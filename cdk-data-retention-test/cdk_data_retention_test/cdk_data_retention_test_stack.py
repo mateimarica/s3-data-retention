@@ -6,7 +6,7 @@ from aws_cdk import (
 import datetime
 import pytz
 
-class MateiDataRetentionTestStack(core.Stack):
+class CdkDataRetentionTestStack(core.Stack):
 
 	def __init__(
     		self, 

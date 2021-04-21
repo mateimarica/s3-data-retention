@@ -6,7 +6,7 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="matei_data_retention_test",
+    name="cdk_data_retention_test",
     version="0.0.1",
 
     description="An empty CDK Python app",
@@ -15,8 +15,8 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "matei_data_retention_test"},
-    packages=setuptools.find_packages(where="matei_data_retention_test"),
+    package_dir={"": "cdk_data_retention_test"},
+    packages=setuptools.find_packages(where="cdk_data_retention_test"),
 
     install_requires=[
         "aws-cdk.core==1.87.0",
