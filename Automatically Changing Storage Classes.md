@@ -1,8 +1,12 @@
 # Automatically Changing Storage Classes (Lifecycle transitions)
 
-You can add rules to an S3 bucket to transition to a certain storage class after a certain number of days.
+You can add rules to an S3 bucket to transition to a certain storage class...
 
+* after a certain number of days.
 
+* on a specific date.
+
+Examples of setting these rules can be seen in the CDK stack code [here](https://github.com/mateimarica/s3-data-retention/blob/d15c14f17c52f5f5ee16d73846b0cb9af042aed1/cdk-data-retention-test/cdk_data_retention_test/cdk_data_retention_test_stack.py#L30).
 
 <br>
 
